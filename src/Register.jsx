@@ -1,9 +1,7 @@
-import { NavLink } from "react-router-dom";
-// images
+import { Link } from "react-router-dom";
 import profile from "./assets/img/profile.jpg";
 import { IoIosArrowBack } from "react-icons/io";
 
-// second
 import { FiFileText } from "react-icons/fi";
 import { TfiWallet } from "react-icons/tfi";
 import { FiLink } from "react-icons/fi";
@@ -39,11 +37,11 @@ const Register = () => {
                   </p>
                 </div>
               </div>
-              <NavLink to={"/dashboard"}>
+              <Link to={"/dashboard"}>
                 <h5 className="text-white">
                   <IoIosArrowBack /> Back Home
                 </h5>
-              </NavLink>
+              </Link>
             </div>
           </div>
           <div className="col-md-12 col-lg-9 border">
