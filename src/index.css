@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.progres .progress-barr .box-bar {
+  height: 50px;
+  width: 50px;
+  border: 3px solid red;
+  border-radius: 75%;
+}
+.progres {
+  position: relative;
+}
+.progress-respon {
+  margin-top: 8%;
+}
+.fw-normal {
+  font-size: 15px;
+}
+
+.group-form {
+  padding: 5px;
+  border-radius: 8px;
+  box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px,
+    rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px,
+    rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px,
+    rgba(42, 51, 70, 0.04) 0px 6px 6px -3px,
+    rgba(14, 63, 126, 0.04) 0px 12px 12px -6px,
+    rgba(14, 63, 126, 0.04) 0px 24px 24px -12px;
+}
+.group-form input {
+  border: none;
+  outline: none;
+}
+.plus-icons {
+  width: 300px;
+  box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px,
+    rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px,
+    rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px,
+    rgba(42, 51, 70, 0.04) 0px 6px 6px -3px,
+    rgba(14, 63, 126, 0.04) 0px 12px 12px -6px,
+    rgba(14, 63, 126, 0.04) 0px 24px 24px -12px;
+  border-radius: 8px;
+}
+.plus-icons .plus {
+  width: 50px;
+  height: 50px;
+  border-radius: 75%;
+  background-color: hotpink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-list {
+  width: 100%;
+  position: fixed;
+  bottom: 20px;
+}
+.profile-item-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+table {
+  border: 1px solid black;
+}
+table tr {
+  border: 1px solid black;
+}
+table input[type="checkbox"] {
+  height: 20px;
+  width: 20px;
+}
+table th,
+td {
+  padding: 5px;
+}
+table th:first-child {
+  border: 1px solid black;
+}
+table td:first-child {
+  border: 1px solid black;
+}
+.form-right {
+  margin-top: 10px;
+  border: 1px solid black;
+}
+.form-right input,
+select {
+  border: none;
+  outline: none;
+  height: 35px;
+  padding: 5px;
+}
+.text-underline {
+  text-decoration: underline;
+  text-underline-offset: 15px;
+}
+#search {
+  border: none;
+  border-bottom: 1px solid;
+  border-radius: 3px;
+  opacity: 0.2;
+}
+#AssetDetails {
+font-size: 15px;
+text-align: center;
+}
+

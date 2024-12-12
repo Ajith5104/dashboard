@@ -1,0 +1,50 @@
+.gauge-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+.gauge-svg {
+  width: 80%;
+  height: 80%;
+  transform: rotate(-160deg);
+}
+
+.gauge-arc {
+  fill: none;
+  stroke: #594caf;
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-dasharray: 240 60;
+  stroke-dashoffset: 75;
+}
+
+.gauge-number {
+  fill: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.gauge-label {
+  position: absolute;
+  bottom: 0%;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+.paragraphs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.empty-paragraph {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #333;
+}

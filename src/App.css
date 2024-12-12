@@ -1,0 +1,19 @@
+.form-check-input:checked {
+  background-color: green;
+  border-color: green;
+}
+
+#sidebar {
+  background-color: #324ea8;
+}
+#Addcolor {
+    background: hsla(279, 83%, 70%, 1);
+
+    background: linear-gradient(90deg, hsla(279, 83%, 70%, 1) 0%, hsla(321, 90%, 70%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(279, 83%, 70%, 1) 0%, hsla(321, 90%, 70%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(279, 83%, 70%, 1) 0%, hsla(321, 90%, 70%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C471F2", endColorstr="#F76CC6", GradientType=1 );
+}
