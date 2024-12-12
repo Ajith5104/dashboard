@@ -39,7 +39,7 @@ const Register = () => {
                   </p>
                 </div>
               </div>
-              <NavLink to={"/"}>
+              <NavLink to={"/dashboard"}>
                 <h5 className="text-white">
                   <IoIosArrowBack /> Back Home
                 </h5>
